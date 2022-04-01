@@ -6,7 +6,7 @@
 * [ ] null
   * quiere decir que si admite valores vacios
 * [ ] not null
-   quiere decir que no admite valores vacios es decir tienes que llenar el dato.
+  * quiere decir que no admite valores vacios es decir tienes que llenar el dato.
    
 ```sql
 create table libros(
