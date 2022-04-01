@@ -15,3 +15,19 @@ autor varchar(20) not null,
 editorial varchar(15) null,
 precio number(5,2);
 ```
+
+**Insertamos un valor null
+```sql
+insert into libros values ('El Aleph', 'Borges', 'Emece', null);
+```
+### null indica que no existe ningun dato en ese campo
+
+```sql
+select * from libros;
+```
+
+ | titulo            | autor           |  editorial   |   PRECIO   |
+ | ------------------|:---------------:|---------------:|-----------:|
+ | El Aleph          | Borges          |   Emece   |   null   |
+
+ 
